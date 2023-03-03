@@ -1,0 +1,9 @@
+{
+"name" : "Berg",
+"location" : "Germany",
+"phone" : "89465132",
+"courses" : [
+		"rust",
+		"kotlin"
+]
+}

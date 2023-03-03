@@ -1,0 +1,30 @@
+{
+    "$schema": "http://json-schema.org/draft-06/schema#",
+    "type": "array",
+    "items": {
+        "$ref": "#/definitions/Welcome10Element"
+    },
+    "definitions": {
+        "Welcome10Element": {
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+                "name": {
+                    "type": "string"
+                },
+                "salary": {
+                    "type": "integer"
+                },
+                "age": {
+                    "type": "integer"
+                }
+            },
+            "required": [
+                "age",
+                "name",
+                "salary"
+            ],
+            "title": "Welcome10Element"
+        }
+    }
+}

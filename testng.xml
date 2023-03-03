@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="chain.copy.ChainingCreateUser"/>
+      <class name="chain.copy.ChainingGetUser"/>
+      <class name="chain.copy.ChainingUpdateUser"/>
+      <class name="chain.copy.ChainingDeleteUser"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
